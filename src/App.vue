@@ -51,7 +51,7 @@ export default {
       let minus = 0;
       let sortedDice = this.inhand.sort();
       if (this.inhand.length > 0) {
-        // the only two that are unique for full hands are 6 of a kind and 6 in a row
+        // the only two that are unique for full hands are 6 of a kind and 6 in a row test
         if (sortedDice.length === 6) {
           if (sortedDice[0] === sortedDice[5]) {
             this.rollAgain = true;
